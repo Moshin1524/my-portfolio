@@ -19,9 +19,14 @@ span{
 .image_one{
     height: 470px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .iamge_two{
+    height: 470px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.image_three{
     height: 470px;
     padding: 5px;
     border-radius: 5px;
@@ -36,7 +41,7 @@ section{
 
 .div_2 img{
     width : -70%;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: burlywood;
 }
 .linked_button{
@@ -57,25 +62,27 @@ section{
 }
 .div_3{
     background-color: burlywood;
+    border-radius: 10px;
 }
 .div_5{
     background-color: burlywood;
     margin-left: 40px;
+    border-radius: 10px;
+    ;
 }
 .div_4{
     background-image: url(images/my-bg.png);
     background-size: 80%;
     background-repeat: no-repeat;
     padding: 10px;
-    margin-left: 100px;
-    width: 600px;
+    background-position: center;
+    width: 800px;
 }
 .par_2{
     color: yellow;
     font-size: 35px;
     text-align: center;
-    margin-top: 60px;
-    margin-right: 35px;
+    margin-top: 60px;;
 }
 .linked_button2{
     padding: 10px 40px;
@@ -86,4 +93,67 @@ section{
     color: blue;
     background-color: aqua;
     border-radius: 8px;
+}
+h4{
+    font-size: 50px;
+}
+.div_7{
+    background-image: url(images/my-bg2.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    background-position: center;
+    width: 800px;
+}
+.par_3{
+    color: yellow;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 120px;;
+    margin-left: 50px;
+}
+.footer_section{
+    margin-top: 40px;
+    background-color: rgba(250, 143, 3, 0.301);
+}
+.linked_button3{
+    padding: 10px 40px;
+    margin-top: 10px;
+    margin-left: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    background-color: aqua;
+    border-radius: 8px;
+}
+.div_6{
+    background-color: burlywood;
+    border-radius: 10px;
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h3{
+    color: orange;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid tomato;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue 100%, cyan 100%);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
